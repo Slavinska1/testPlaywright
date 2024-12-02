@@ -1,0 +1,13 @@
+{
+  "name": "playwright-tests",
+  "version": "test",
+  "dependencies": {
+    "@playwright/test": "^1.49.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.19.1",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "desktop": "playwright test tests/catalog/test.spec.js --project=desktop"
+  }
+}
